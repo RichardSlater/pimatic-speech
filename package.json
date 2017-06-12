@@ -1,0 +1,28 @@
+{
+  "name": "pimatic-speech",
+  "description": "Speech Synthesis",
+  "author": "Richard Slater <git@richard-slater.co.uk> (http://slaterfamily.name)",
+  "main": "speech",
+  "files": [
+    "speech.coffee",
+    "README.md",
+    "speech-config-schema.coffee"
+  ],
+  "version": "0.1.0",
+  "homepage": "https://github.com/RichardSlater/pimatic-speech",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RichardSlater/pimatic-speech.git"
+  },
+  "configSchema": "speech-config-schema.coffee",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.*"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  }
+}
